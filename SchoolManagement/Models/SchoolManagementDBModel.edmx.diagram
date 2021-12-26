@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6017f03f17b24066878bfb350c6b0792" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.AspNetRoles" Width="1.5" PointX="2.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.AspNetUserClaims" Width="1.5" PointX="7.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.AspNetUserLogins" Width="1.5" PointX="7.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.AspNetUsers" Width="1.5" PointX="5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Course" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Enrollment" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Lecturers" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Student" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Course_CourseID" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Lecturer_LecturerID" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Student_StudentID" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagement_DBModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
